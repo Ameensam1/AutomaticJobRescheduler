@@ -4,8 +4,7 @@
  * @date 9/5/2020
  */
 
-public with sharing class Repeating_Scheduler_Example implements Schedulable
-{
+public with sharing class Repeating_Scheduler implements Schedulable{
 	private final String JOB_NAME = 'Repeating Job';
 	private final Integer ONE_MINUTE = 1;
 
